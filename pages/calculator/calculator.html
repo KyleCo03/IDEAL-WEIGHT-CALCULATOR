@@ -1,36 +1,49 @@
-<ion-header>
-<!--  <ion-navbar> 
+<!--<ion-header>
+  <ion-navbar> 
     <ion-title>
       Calculator
     </ion-title>
-  </ion-navbar>  -->
-
+  </ion-navbar>  
+-->
 <div class="header">
   <h1>My Ideal Weight Calculator</h1>
-</div>
+</div> 
+<!--
 
+<link rel="stylesheet" href="https://unpkg.com/@ionic/core@latest/css/ionic.bundle.css"/>
+<script src="https://unpkg.com/@ionic/core@latest/dist/ionic.js"></script>
+-->
 </ion-header>
 
 <ion-content>
-<body>
-  <ion-item>
-    <ion-label for="height">HEIGHT IN:</ion-label>
-    <ion-input type="number" value=number [(ngModel)]="feet" placeholder="Enter Height Between 5 to 9 Feet" min="5" max="9"></ion-input>
-    <ion-label for="feet">feet</ion-label>
-    <ion-input type="submit" value="Submit"></ion-input>
-  </ion-item>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>
+        My Ideal Weight Calculator
+      </ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-item>
+        <ion-label for="height">HEIGHT IN:</ion-label>
+        <ion-input type="number" value=number [(ngModel)]="feet" placeholder="Enter Height Between 5 to 9 Feet" min="5" max="9"></ion-input>
+        <ion-label for="feet">feet</ion-label>
+        <ion-input type="submit" value="Submit"></ion-input>
+      </ion-item>
  
 
-  <ion-item>
+      <ion-item>
     
-    <ion-input type="number" [(ngModel)]="inches" placeholder="Enter Height between 0 to 11 Inches" min="0" max="11"></ion-input>
-    <ion-label for="inches">inches</ion-label>
-  </ion-item>
+        <ion-input type="number" [(ngModel)]="inches" placeholder="Enter Height between 0 to 11 Inches" min="0" max="11"></ion-input>
+      <ion-label for="inches">inches</ion-label>
+      </ion-item>
+    </ion-card-content>
+  </ion-card>
+  
  
 
   
     
-</body>
+
 <!--  <ion-list>
     <ion-list-header>Follow us on Twitter</ion-list-header>
     <ion-item>
