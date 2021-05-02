@@ -43,19 +43,19 @@
       <table class="center">
         <tr>
           <td><strong>GENDER</strong></td>
-          <td><select [(ngModel)]="gender">
-                <option value="male">MALE</option>
-                <option value="female">FEMALE</option>
+          <td><select interface="popover"[(ngModel)]="gender">
+                <option value="m">MALE</option>
+                <option value="f">FEMALE</option>
               </select></td>
         </tr>
       </table>
 
       <br>
-            
+           
       <div margin-vertical text-center>
         <button ion-button (click)="calcIBW()">COMPUTE</button>
       </div>
-
+    
       <br>
 
       <table class="center">
@@ -84,7 +84,8 @@
         </tr>
       </table>
 
-
+      <br>
+      <ion-item><h2>gender is {{this.gender}}</h2></ion-item>}
 
 
       

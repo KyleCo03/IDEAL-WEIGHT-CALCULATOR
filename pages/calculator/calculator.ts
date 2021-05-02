@@ -10,7 +10,7 @@ export class CalculatorPage {
   hif: number;
   hii: number;
   tothii: number;
-  gender: string;
+  gender: char;
   miller: number;
   robinson: number;
   devine: number;
@@ -25,7 +25,7 @@ export class CalculatorPage {
 
       if(this.tothii >= 60)
       {
-        if (this.gender = "male") 
+        if (this.gender = "m") 
         {
           this.miller   = 56.2 + ((this.tothii - 60) * 1.41);
           this.robinson = 52   + ((this.tothii - 60) * 1.9 );
