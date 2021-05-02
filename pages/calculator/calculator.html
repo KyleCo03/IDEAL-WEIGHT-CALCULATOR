@@ -43,7 +43,7 @@
       <table class="center">
         <tr>
           <td><strong>GENDER</strong></td>
-          <td><select value="male" [(ngModel)]="gender">
+          <td><select [(ngModel)]="gender">
                 <option value="male">MALE</option>
                 <option value="female">FEMALE</option>
             </select></td>
@@ -84,17 +84,35 @@
         </tr>
       </table>
 
+
+
+
       <ion-item *ngIf="hif">
         <h2> HIF is {{hif}}</h2>
       </ion-item>
       <ion-item *ngIf="hii">
         <h2> HIi is {{hii}}</h2>
       </ion-item>
+
+
+      
       <ion-item *ngIf="gender">
         <h2> Gender is {{gender}}</h2>
       </ion-item>
       <ion-item >
         <h2> Tothii is {{this.tothii}}</h2>
+      </ion-item>
+      <ion-item>
+        <h2> miller is {{this.miller}}</h2>
+        <h2> robinson is {{this.robinson}}</h2>
+        <h2> devine is {{this.devine}}</h2>
+        <h2> hamwi is {{this.hamwi}}</h2>
+      </ion-item>
+
+      
+
+      <ion-item >
+        <h2><p> {{this.IBWmessage}}<p></h2>
       </ion-item>
 
     </ion-card-content>
