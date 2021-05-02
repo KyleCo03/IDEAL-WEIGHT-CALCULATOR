@@ -7,12 +7,19 @@ import { NavController } from 'ionic-angular';
   styleUrls: ['calculator.css']
 })
 export class CalculatorPage {
-  feet: number;
-  inches: number;
-  totalheight: number;
+  hif: number;
+  hii: number;
+  tothii: number;
   gender: string;
+  miller: number;
+  robinson: number;
+  devine: number;
+  hamwi: number;
 
   constructor(public navCtrl: NavController) {
+
+
+
 
   }
 

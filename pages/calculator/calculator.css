@@ -22,7 +22,7 @@ table.center {
   margin-right: auto;
 }
 
-th, td { padding:0.5em;}
+th, td { padding: 0.3em 0.2em; }
 
 .card{
   background-color: lightblue;
