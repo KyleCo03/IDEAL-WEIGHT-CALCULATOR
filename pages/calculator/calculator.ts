@@ -16,11 +16,14 @@ export class CalculatorPage {
   devine: number;
   hamwi: number;
 
-  constructor(public navCtrl: NavController) {
+  constructor(public navCtrl: NavController) {}
+   
+  calculateIBW(){
+    this.tothii = ((this.hif) * 12) + hii;
 
-
-
-
+      this.miller = 52 + ((tothii - 60) * 1.9);
   }
+
+  
 
 }
