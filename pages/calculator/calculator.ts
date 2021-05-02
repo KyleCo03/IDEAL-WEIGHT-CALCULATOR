@@ -27,7 +27,7 @@ export class CalculatorPage {
       this.devine   = 50   + ((this.tothii - 60) * 2.3 );
       this.hamwi    = 48   + ((this.tothii - 60) * 2.7 );
     } else {
-      this.miller   = 53.1 + ((this.tothii - 60) * 1.36;
+      this.miller   = 53.1 + ((this.tothii - 60) * 1.36);
       this.robinson = 49   + ((this.tothii - 60) * 1.7 );
       this.devine   = 45.5 + ((this.tothii - 60) * 2.3 );
       this.hamwi    = 45.5 + ((this.tothii - 60) * 2.2 );
