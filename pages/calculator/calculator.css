@@ -5,7 +5,10 @@ body{
 }
 
 .header{
+  margin-top: 5px;
+  margin-bottom: 5px;
   background-color: orangered;
+  border-radius: 20px;
   color: black ;
   padding: 5px;
   text-align: center;
