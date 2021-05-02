@@ -1,0 +1,25 @@
+.center {
+  border-radius: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: lightblue;
+  border-radius: 30px;
+  color: black ;
+  padding: 5px;
+  text-align: center;
+}
+
+div { text-align: center; }
+
+body { display: inline-block; text-align: left; }
+
+.card{
+  background-color: lightyellow;
+  border-radius: 40px;
+}
