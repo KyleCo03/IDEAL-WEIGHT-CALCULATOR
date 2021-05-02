@@ -25,7 +25,7 @@ export class CalculatorPage {
 
       if(this.tothii >= 60)
       {
-        if (this.gender = "m") 
+        if (this.gender == "m") 
         {
           this.miller   = 56.2 + ((this.tothii - 60) * 1.41);
           this.miller   = parseFloat(this.miller.toFixed(2));
