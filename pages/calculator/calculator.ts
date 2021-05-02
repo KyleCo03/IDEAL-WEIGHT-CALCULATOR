@@ -10,7 +10,7 @@ export class CalculatorPage {
   hif: number;
   hii: number;
   tothii: number;
-  gender: string = "male";
+  gender: string;
   miller: number;
   robinson: number;
   devine: number;
