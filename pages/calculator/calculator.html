@@ -24,12 +24,12 @@
       
       <table class="center">
         <tr>
-          <td><strong>"HEIGHT IN:"</strong></td>
+          <td><strong>HEIGHT IN:</strong></td>
         </tr>
         <tr>
           <td><input type="number" [(ngModel)]="hif" ></td>
           <td>feet</td>
-          <td><input type="number"></td>
+          <td><input type="number" [(ngModel)]="hii"></td>
           <td>inches</td>
         </tr>
       </table>
@@ -38,8 +38,11 @@
 
       <table class="center">
         <tr>
-          <td><strong>"GENDER"</strong></td>
-          <td><input type="number"></td>
+          <td><strong>GENDER</strong></td>
+          <td><select>
+                <option value="male">MALE</option>
+                <option value="female">FEMALE</option>
+            </select></td>
         </tr>
       </table>
 
