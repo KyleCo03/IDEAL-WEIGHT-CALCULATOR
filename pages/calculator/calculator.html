@@ -15,10 +15,12 @@
     <ion-card-content >  
 
       <div> 
+        <p><strong>To better implement Miller, Robinsons, Devine, Hamwi Formula,
+           please follow instructions below.</strong></p>
         <ul>
           <li>Please enter Height in Feet no less than 5 feet</li>
           <li>Please enter Height in Inches from 0 to 11 only</li>
-          <li>This app only accepts whole number             </li>
+          <li>Please enter whole number                      </li>
         </ul>
       </div>
 
@@ -41,9 +43,9 @@
       <table class="center">
         <tr>
           <td><strong>GENDER</strong></td>
-          <td><select value="male">
-                <option value="male" gender="male">MALE</option>
-                <option value="female" gender="female">FEMALE</option>
+          <td><select value="male" [(ngModel)]="gender">
+                <option value="male">MALE</option>
+                <option value="female">FEMALE</option>
             </select></td>
         </tr>
       </table>
@@ -91,7 +93,9 @@
       <ion-item *ngIf="gender">
         <h2> Gender is {{gender}}</h2>
       </ion-item>
-
+      <ion-item >
+        <h2> Tothii is {{this.tothii}}</h2>
+      </ion-item>
 
     </ion-card-content>
   </ion-card>
