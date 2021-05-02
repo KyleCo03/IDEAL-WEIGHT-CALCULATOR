@@ -48,10 +48,6 @@ export class CalculatorPage {
             this.hamwi    = parseFloat(this.hamwi.toFixed(2));         
           }
       } 
-      else
-      {
-        this.IBWmessage="Minimum height of 5 feet please"
-      }
     }
 
     test(event) 
