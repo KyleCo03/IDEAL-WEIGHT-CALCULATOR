@@ -41,7 +41,7 @@
       <table class="center">
         <tr>
           <td><strong>GENDER</strong></td>
-          <td><select>
+          <td><select value="male">
                 <option value="male" gender="male">MALE</option>
                 <option value="female" gender="female">FEMALE</option>
             </select></td>
@@ -82,7 +82,16 @@
         </tr>
       </table>
 
-    
+      <ion-item *ngIf="hif">
+        <h2> HIF is {{hif}}</h2>
+      </ion-item>
+      <ion-item *ngIf="hii">
+        <h2> HIi is {{hii}}</h2>
+      </ion-item>
+      <ion-item *ngIf="gender">
+        <h2> Gender is {{gender}}</h2>
+      </ion-item>
+
 
     </ion-card-content>
   </ion-card>
