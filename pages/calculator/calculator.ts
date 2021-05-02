@@ -18,7 +18,7 @@ export class CalculatorPage {
 
   constructor(public navCtrl: NavController) {}
 
-    calculateIBW()
+    calcIBW()
     {
       this.tothii = (this.hif * 12) + this.hii;
 
